@@ -1,0 +1,38 @@
+ html{
+      box-sizing: border-box;
+  }
+  *, *::before, *::after{
+      box-sizing: inherit;
+  } 
+    .container{
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      background-image: url('background2.png');
+      background-repeat: no-repeat;
+      background-size:cover;
+      background: linear-gradient(90reg,#5A5858  , #FFFFFF );
+
+    }
+    h2{
+          position: absolute;
+          width: 800px;
+          left: 400px;
+          top: 160px;
+          
+          font-family: monospace;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 85px;
+          line-height: 110px;
+          text-align: center;
+          
+          color: #FFFFFF;
+          
+
+    }
+    h2 span{
+        border-radius: nullpx;
+
+    }
+
