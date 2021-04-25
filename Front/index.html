@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <form name="form" method="" action="">
-    <div class="container">
-    <img src="background2.png" alt=""/>
-    <p><input type="url"/></p>
-    <h2><span>Web Interface</span></h2>
-    <h3><span>Old URL:</span></h3>
-    <h4><span>New URL:</span></h4>
-    <p><input type="url"/></p>
-    <button type="button"
-    onclick="alert('Diff!')">Diff!</button>
-    </div>  
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active">Application</h2>
+
+          <!-- Login Form -->
+          <form>
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Old URL">
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="New URL">
+            <input type="submit" class="fadeIn fourth" value="Compare">
+          </form>
+        </div>
+      </div>
 </form>
 </body>
 </html>
