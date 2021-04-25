@@ -21,15 +21,16 @@ def get_changes(img_1, img_2):
     
     for contour in contours:
         (x, y, w, h) = cv2.boundingRect(contour)
-    
-#         print(cv2.contourArea(contour)
+
+        if cv2.contourArea(contour) < 500:
+            continue
     
         cv2.rectangle(img_1, (x, y), (x + w, y + h), (0, 255, 0), 2)
         
     return img_1
 
 def get_image_from_url(url):
-    request = 'http://mini.s-shot.ru/1024x0/png/?{}'.format(url)
+    request = 'http://mini.s-shot.ru/1024x6000/png/?{}'.format(url)
     
     with urllib.request.urlopen(request) as _url:
         response = BytesIO(_url.read())
