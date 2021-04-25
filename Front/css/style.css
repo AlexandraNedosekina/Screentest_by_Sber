@@ -11,10 +11,9 @@
       background-image: url('background2.png');
       background-repeat: no-repeat;
       background-size:cover;
-      background: linear-gradient(90reg,#5A5858  , #FFFFFF );
-
+      background: linear-gradient(0reg,#5a5858ab 50% , #ffffff5b 50% );
     }
-    h2{
+    h2 span{
           position: absolute;
           width: 800px;
           left: 400px;
@@ -28,11 +27,96 @@
           text-align: center;
           
           color: #FFFFFF;
-          
+          border-radius: nullpx;  
 
     }
-    h2 span{
-        border-radius: nullpx;
+    h3 span{
+        position: absolute;
+        width: 700px; 
+        height: 75px;
+        left: 150px;
+        top: 400px;
+
+        font-family: monospace;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 80px;
+        text-align: center;
+
+        color: #000000;
+    }
+     input{
+        position: absolute;
+        width: 450px;
+        height: 46px; 
+        left: 630px;
+        top: 420px;
+        cursor: auto;
+        font-family: monospace;
+        font-size: 27pt;
+        
+
+       background: rgba(196, 196, 196, 0.8);
+       border-radius: 30px;
+       border-color: rgba(87, 86, 86, 0.8);
+    }
+    h4 span{
+        position: absolute;
+        width: 700px;
+        height: 75px;
+        left: 150px;
+        top: 500px;
+
+       font-family: monospace;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 60px; 
+       line-height: 80px;
+       text-align: center;
+
+       color: #000000;
 
     }
+    form{
+        font-family: monospace;
+    }
+    input{
+        position: absolute;
+        width: 450px;
+        height: 46px; 
+        left: 630px;
+        top: 420px;
+        cursor: auto;
+        text-align: inherit;
+        
+
+       background: rgba(196, 196, 196, 0.8);
+       border-radius: 30px
+    }
+    button{
+        position: absolute;
+        width: 130px;
+        height: 60px; 
+        left: 630px;
+        top: 630px;
+        cursor: auto;
+        text-align: inherit;
+        position: absolute;
+
+        font-family: monospace;
+        font-style: bold;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #000000;
+
+        background: rgba(139, 187, 78, 0.86);
+       border-radius: 38px
+    }
+
 
